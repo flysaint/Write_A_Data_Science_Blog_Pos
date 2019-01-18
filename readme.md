@@ -45,7 +45,7 @@ After the first process step,we select features to watch in the following ways:
 3. House other information. price,security_deposit,cleaning_fee,minimum_nights,maximum_nights,availability_365,instant_bookable,cancellation_policy
 4. House scrore information. review_scores_rating,review_scores_rating,review_scores_accuracy,review_scores_cleanliness,review_scores_checkin,review_scores_communication,review_scores_location,review_scores_value
 
-
+[](https://github.com/flysaint/Write_A_Data_Science_Blog_Pos/blob/master/data/Seattle_AirBNB_Data/2.1%20Load%20the%20data.png)
 
 
 ### 3.3 Variable transformation（针对性处理)
