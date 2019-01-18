@@ -12,6 +12,9 @@ then I want to find out that:
 ### 2.1 Load the data
 
 
+![image](https://github.com/flysaint/Write_A_Data_Science_Blog_Pos/blob/master/data/Seattle_AirBNB_Data/2.1%20Load%20the%20data.png)
+
+
 ### 2.2 Preview the data
 The data are mainly divided into the following aspects:
 **Host information**
