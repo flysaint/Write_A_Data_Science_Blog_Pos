@@ -1,4 +1,6 @@
 
+![image](https://github.com/flysaint/Write_A_Data_Science_Blog_Pos/blob/master/data/Seattle_AirBNB_Data/airbnb_log.png)
+
 ## 1 商业理解（business understanding）
 Problem I want to solve:
 I just split Seatte houses into two parts by the price.The high price house's price is more than median price (119).The low price house's price is less than median price(119).
@@ -69,6 +71,8 @@ We process the categorical varibles in the following ways:<br/>
 1) If miss rate is more than 0.8 then delete this variable,else fill then miss value with '-1'. <br/>
 2) One-hot encoding. <br/>
 
+![image](https://github.com/flysaint/Write_A_Data_Science_Blog_Pos/blob/master/data/Seattle_AirBNB_Data/3.5%20data%20review.png)
+
 ### 3.6 reveiw again(再次遍历处理) <br/>
 after we process features by the ways above all,we should process the single value ,the big proportion again.
 
@@ -80,21 +84,38 @@ I want to find out that :<br/>
 
 We select the features like beds,bathrooms,accommodates and so on to watch the difference between high/low price houses.
 
+![image](https://github.com/flysaint/Write_A_Data_Science_Blog_Pos/blob/master/data/Seattle_AirBNB_Data/accommodates.png)
 
+
+![image](https://github.com/flysaint/Write_A_Data_Science_Blog_Pos/blob/master/data/Seattle_AirBNB_Data/bathrooms.png)
 
 ## 5. Build Module(建立模型)
 
-**Question2 If you are a low/high house host,what should you do to improve the review score value?**
+### Question2 If you are a low/high house host,what should you do to improve the review score value?
 **Conclusion**
 1. From the pictures above,we can see both high price houses' users and low price houses' users care about 
 review_scores_cleanliness,review_scores_cleanliness,cleaning_fee,security_deposit,maximum_nights,minimum_nights.accommodates. <br/>
 2. If you are a low price houses's host,you should try to be a superhost at first,and then maybe you should not make your the houses cancellation policy to be a strict grace period. <br/>
 3. If you are a high price houses' host , more care about beds,and bedrooms,and wheather the house is a Apartment.
 
+**The features importance in low price house reiview score value**
+
+![image](https://github.com/flysaint/Write_A_Data_Science_Blog_Pos/blob/master/data/Seattle_AirBNB_Data/The%20features%20importance%20in%20low%20price%20house%20reiview%20score%20value.png)
+
+**The features importance in high price house reiview score value**
+
+![image](https://github.com/flysaint/Write_A_Data_Science_Blog_Pos/blob/master/data/Seattle_AirBNB_Data/The%20features%20importance%20in%20low%20price%20house%20reiview%20score%20value.png)
 
 
+### Question3 If we are the house hosts,If we want to be a superhost,what should we do while we are high price house host or low price house host?
 
-**Question3 If we are the house hosts,If we want to be a superhost,what should we do while we are high price house host or low price house host?**
+**The features importance in low price house**
+![image](https://github.com/flysaint/Write_A_Data_Science_Blog_Pos/blob/master/data/Seattle_AirBNB_Data/The%20features%20importance%20in%20low%20price%20house.png)
+
+**The features importance in high price house**
+![image](https://github.com/flysaint/Write_A_Data_Science_Blog_Pos/blob/master/data/Seattle_AirBNB_Data/The%20features%20importance%20in%20high%20price%20house.png)
+
+
 **conclusion**
 
 From the figtures above,we can see that both of low/high price house's hosts are been influenced by cleaning_fee,maximum_nights,review_scores_value,secutity_deposit,review_scores_cleanliness,host_reponse_rate_flag,host_reponse_time_flag.
